@@ -63,7 +63,7 @@ POJO （ Plain Ordinary Java Object ）简单的 Java 对象。它可以包含�
 
 一般指容器管理对象，在 Spring 中指 Spring IoC 容器管理对象。
 
-#4. 分层架构
+# 4. 分层架构
 
 Spring框架是分层架构的,它包含了一系列的功能要素:
 
@@ -127,7 +127,7 @@ public class HelloServiceImpl implements HelloService {
 ```
 
 消费者调用服务代码:
-```
+```java
 package com.light.sword;
 
 import com.light.sword.dao.HelloDaoImpl;
